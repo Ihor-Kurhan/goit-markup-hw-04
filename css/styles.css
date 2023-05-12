@@ -48,11 +48,20 @@ img {display: block}
 
 /* hero */
 .hero {background-color: #2e2f42;
-    padding: 188px 0;}
-.hero-content {
-    
-
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
+/*  max-width: 1440px;
+    margin: 0 auto; ??? */
+
+    
+.hero-content 
+
 .title-index {
     font-family: var(--main-font-family);
     font-weight: 700; 
@@ -63,7 +72,7 @@ img {display: block}
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: #2E2F42;
+    /* background-color: #2E2F42; */
     max-width: 496px;
     margin-bottom: 48px;
 }
@@ -168,6 +177,8 @@ padding: 12px 24px;
 border: 1px solid #e7e9fc;
 }
 .nav-btn:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
     background: #404BBF;
     color: #FFFFFF;
     border-radius: 4px;
@@ -175,6 +186,8 @@ border: 1px solid #e7e9fc;
 }
 
 .nav-btn:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
     background: #404BBF;
     color: #FFFFFF;
     border-radius: 4px;
@@ -265,11 +278,13 @@ border: 1px solid #e7e9fc;
 }
 .team-img {
     background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
 }
 .our-team-list {
     display: flex;
     gap: 24px;
-
 }
 .team-li {
     border-radius: 0px 0px 4px 4px;
@@ -346,6 +361,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 width: calc((1440px - 48px) / 3);
 }
+.sec-port-img:hover {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;}
 /* title-portfolio */
 .title-portfolio {
     font-weight: 500;

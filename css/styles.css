@@ -286,6 +286,29 @@ border: 1px solid #e7e9fc;
     display: flex;
     gap: 24px;
 }
+/* customers-list 5 */
+.customers-sec {
+}
+
+.customers-svg {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-right: 24px;
+    padding-top: 16px;
+    padding-left: 32px;
+}
+
+.customers-list {
+    display: flex;
+    width: 1128px;
+    margin-bottom: 120px;
+}
+
+.customers-title {
+    margin-top: 120px;
+    margin-bottom: 72px;
+}
+
 .team-li {
     border-radius: 0px 0px 4px 4px;
 }

@@ -211,6 +211,17 @@ border: 1px solid #e7e9fc;
 }
 
 /* sec2 */
+
+.div-icon-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 .hidden-features {
     color:#2e2f42;
     margin-bottom: 8px;
@@ -291,7 +302,8 @@ border: 1px solid #e7e9fc;
 }
 /* customers-list 5 */
 .customers-sec {
-
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .svg-link {
     width: 100%;
@@ -318,11 +330,13 @@ border: 1px solid #e7e9fc;
     justify-content: center;
     width: 1128px;
     margin-bottom: 120px;
+    gap: 24px;
 }
 
 .customers-title {
     margin-top: 120px;
     margin-bottom: 72px;
+    line-height: 1.1;
 }
 
 .team-li {

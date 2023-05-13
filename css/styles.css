@@ -285,9 +285,12 @@ border: 1px solid #e7e9fc;
 .our-team-list {
     display: flex;
     gap: 24px;
+    
 }
 /* customers-list 5 */
 .customers-sec {
+   
+   
 }
 
 .customers-svg {
@@ -300,6 +303,7 @@ border: 1px solid #e7e9fc;
 
 .customers-list {
     display: flex;
+    justify-content: center;
     width: 1128px;
     margin-bottom: 120px;
 }

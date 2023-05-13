@@ -16,6 +16,7 @@ ul {margin: 0;
 }
 .header-index {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 .div-header {
     display: flex;
@@ -55,6 +56,7 @@ img {display: block}
     padding: 188px 0;
     max-width: 1440px;
     margin: 0 auto;
+    background-position: center;
 }
 /*  max-width: 1440px;
     margin: 0 auto; ??? */
@@ -289,16 +291,26 @@ border: 1px solid #e7e9fc;
 }
 /* customers-list 5 */
 .customers-sec {
-   
-   
+
+}
+.svg-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.svg-size {
+    width: 104px;
+    height: 56px;
+}
 .customers-svg {
-    border: 1px solid #8E8F99;
-    border-radius: 4px;
-    margin-right: 24px;
-    padding-top: 16px;
-    padding-left: 32px;
+    width: calc((1440px - 120px) / 6);
+    height: 88px;
+
 }
 
 .customers-list {

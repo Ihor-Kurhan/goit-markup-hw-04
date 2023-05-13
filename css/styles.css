@@ -262,13 +262,16 @@ border: 1px solid #e7e9fc;
     width: 464px;
 }
 
-/* list4 Our Team */
+/* sec4 Our Team */
+.name-position {
+    padding: 32px 0;
+}
 
-/* .social-network-list {
+.social-network-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-} */
+}
 
 .title-name-team {
     font-weight: 500;
@@ -307,7 +310,7 @@ border: 1px solid #e7e9fc;
     gap: 24px;
     
 }
-/* customers-list 5 */
+/* customers-sec5 */
 .customers-sec {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -348,10 +351,6 @@ border: 1px solid #e7e9fc;
 .team-li {
     border-radius: 0px 0px 4px 4px;
     padding: 32px 0;
-}
-.name-position {
-    padding: 32px 16px;
-    
 }
 /* h2 */
 .title-features {

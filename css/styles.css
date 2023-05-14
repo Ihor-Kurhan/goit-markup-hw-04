@@ -502,7 +502,12 @@ margin-right: 76px;
     color: #F4F4FD;
 }
 .footer-container {
-    gap: 120px;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-main {
+    margin-right: 120px;
 }
 
 .footer-social-media {

@@ -348,12 +348,11 @@ fill: #f4f4fd;
     color: #8e8f99;;
 }
 
-.svg-link:hover {border-color: #404bbf;}
-.svg-link:focus {border-color: #404bbf;}
-
-.svg-size:hover {color: #404bbf;}
-.svg-size:focus {color: #404bbf;}
-
+.svg-link:hover,
+.svg-link:focus {
+    border-color: #404BBF;
+    color: #404BBF;
+}
 
 .svg-size {
     width: 104px;

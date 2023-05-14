@@ -351,6 +351,8 @@ fill: #f4f4fd;
 .svg-link:hover {border-color: #404bbf;}
 .svg-link:focus {}
 
+.svg-size:hover {color: #404bbf;}
+
 .svg-size {
     width: 104px;
     height: 56px;
@@ -408,6 +410,7 @@ fill: #f4f4fd;
 .text-our-team {
     text-align: center;
     margin: 0;
+    margin-bottom: 8px;
 }
 /* logo */
 .logo-web {

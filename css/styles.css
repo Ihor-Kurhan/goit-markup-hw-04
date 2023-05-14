@@ -273,6 +273,8 @@ border: 1px solid #e7e9fc;
     align-items: center;
     justify-content: center;
 }
+.link-icon:hover {background-color: #404bbf;} 
+.link-icon:focus {background-color: #404bbf;}
 
 .social-icons {
 

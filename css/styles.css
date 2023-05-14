@@ -13,6 +13,9 @@ ul {margin: 0;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
 }
 .header-index {
     border-bottom: 1px solid #e7e9fc;
@@ -507,3 +510,11 @@ margin-right: 76px;
     
 }
 
+.footer-social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}

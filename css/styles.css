@@ -349,13 +349,16 @@ fill: #f4f4fd;
 }
 
 .svg-link:hover {border-color: #404bbf;}
-.svg-link:focus {}
+.svg-link:focus {border-color: #404bbf;}
 
 .svg-size:hover {color: #404bbf;}
+.svg-size:focus {color: #404bbf;}
+
 
 .svg-size {
     width: 104px;
     height: 56px;
+    fill: currentColor;
 }
 
 .customers-svg {
@@ -498,5 +501,10 @@ margin-right: 76px;
     text-transform: uppercase;
     text-decoration: none;
     color: #F4F4FD;
+}
+.foot-social-media {
+    display: flex;
+    align-items: baseline;
     
 }
+

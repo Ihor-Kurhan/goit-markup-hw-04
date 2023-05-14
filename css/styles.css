@@ -502,8 +502,6 @@ margin-right: 76px;
     color: #F4F4FD;
 }
 .footer-container {
-    display: flex;
-    align-items: baseline;
     gap: 120px;
 }
 

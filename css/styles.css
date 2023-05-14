@@ -94,6 +94,10 @@ img {display: block}
         color: #404BBF;}
 
     /* menu list */
+
+    .link-display-block {
+        display: block;
+    }
     .menu {display: flex;
         gap: 40px;
         margin: 0;

@@ -345,16 +345,20 @@ fill: #f4f4fd;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #8e8f99;;
 }
+
+.svg-link:hover {border-color: #404bbf;}
+.svg-link:focus {}
 
 .svg-size {
     width: 104px;
     height: 56px;
 }
+
 .customers-svg {
     width: calc((100% - 120px) / 6);
     height: 88px;
-
 }
 
 .customers-list {

@@ -501,7 +501,7 @@ margin-right: 76px;
     text-decoration: none;
     color: #F4F4FD;
 }
-.foot-social-media {
+.footer-container {
     display: flex;
     align-items: baseline;
     gap: 120px;
